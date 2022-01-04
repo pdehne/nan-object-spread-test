@@ -1,0 +1,16 @@
+{
+  "name": "nan-object-spread-test",
+  "description": "Object spread demo on an object implemented with a nan native node addon",
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "lib/binding.js",
+  "scripts": {
+    "preinstall": "node-gyp configure",
+    "install": "node-gyp build",
+    "test": "node ./test/test_binding.js"
+  },
+  "devDependencies": {
+    "bindings": "^1.5.0",
+    "nan": "^2.15.0"
+  }
+}
