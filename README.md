@@ -2,9 +2,9 @@
 
 First install dependencies and build the addon, then run the test script.
 
-``
+```
 npm install
 npm run test
-``
+```
 
 If all goes well the output should read "Tests passed!".
